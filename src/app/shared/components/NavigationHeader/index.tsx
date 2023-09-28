@@ -11,7 +11,7 @@ export const NavigationHeader: React.FC = () => {
   ];
   return (
     <HeaderNav>
-      <NavBrand imgSrc={LogoDemo} text="Ceiba Software"></NavBrand>
+      <NavBrand imgSrc={LogoDemo} text="Demo Front"></NavBrand>
       <NavList items={routes} />
     </HeaderNav>
   );
