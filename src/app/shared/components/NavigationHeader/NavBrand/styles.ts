@@ -2,7 +2,8 @@ import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const BrandDiv = styled.div`
-  margin: 5px;
+  padding: 5px;
+  margin-right: 15px;
 `;
 
 export const LogoImg = styled.img`
@@ -11,8 +12,9 @@ export const LogoImg = styled.img`
 `;
 
 export const LogoSpan = styled.span`
-  color: green;
-  font-size: calc(18px + 2vmin);
+  color: #2E6144;
+  font-size: calc(18px + 1vmin);
+  font-weight: bold;
 `;
 
 export const BrandLink = styled(Link)`
