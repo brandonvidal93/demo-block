@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 export const Link = styled(RouterLink)`
   text-decoration: none;
+  color: #4B6154;
   &:hover {
-    color: rgba(0, 0, 0, 0.7);
+    color: #2E6144;
   }
 `;
