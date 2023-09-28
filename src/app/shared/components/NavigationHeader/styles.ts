@@ -4,7 +4,7 @@ export const HeaderNav = styled.nav`
 position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: flex-start;
   padding: 0rem 1rem;
   background-color: #f8f9fa;
