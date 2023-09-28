@@ -6,7 +6,7 @@ import { NavList } from './NavList';
 
 export const NavigationHeader: React.FC = () => {
   const routes = [
-    { label: 'Home', url: '/home' },
+    { label: 'Home', url: '/' },
     { label: 'Productos', url: '/productos' },
   ];
   return (
