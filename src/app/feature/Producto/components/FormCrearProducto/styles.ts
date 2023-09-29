@@ -12,6 +12,7 @@ export const DivContainer = styled.div`
 
 export const DivContainerButton = styled.div`
   padding-top: 10px;
+  margin-bottom: 20px;
 `;
 
 export const TitleH2 = styled.h2`
