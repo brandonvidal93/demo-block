@@ -1,8 +1,8 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
+import { Table, TitleTableBold } from './styles';
 import { BtnEliminarProducto } from '../EliminarProducto';
 import { Producto } from '../../models/Producto';
-import { Table } from './styles';
 
 export interface ListaProductosProps {
   productos: Array<Producto>;
@@ -18,13 +18,13 @@ export const ListaProductos: React.FC<ListaProductosProps> = ({
       <thead>
         <tr>
           <td>
-            <b>Título</b>
+            <TitleTableBold>Título</TitleTableBold>
           </td>
           <td>
-            <b>Fecha creación</b>
+            <TitleTableBold>Fecha creación</TitleTableBold>
           </td>
           <td>
-            <b>Eliminar</b>
+            <TitleTableBold>Eliminar</TitleTableBold>
           </td>
         </tr>
       </thead>
