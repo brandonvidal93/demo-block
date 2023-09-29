@@ -1,6 +1,6 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import { Table, TitleTableBold } from './styles';
+import { Table, TextTable, TitleTableBold } from './styles';
 import { BtnEliminarProducto } from '../EliminarProducto';
 import { Producto } from '../../models/Producto';
 
@@ -32,8 +32,8 @@ export const ListaProductos: React.FC<ListaProductosProps> = ({
         {productos.map((producto: Producto) => {
           return (
             <tr key={producto.slug}>
-              <td>{producto.title}</td>
-              <td>{`${producto.createdAt} `}</td>
+              <TextTable>{producto.title}</TextTable>
+              <TextTable>{`${producto.createdAt} `}</TextTable>
               <td>
                 <BtnEliminarProducto
                   producto={producto}
