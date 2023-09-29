@@ -1,5 +1,6 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
+import { ButtonNav, NavContainer } from './styles';
 
 interface PaginadorProductosProps {
   cantidadTotalProductos: number;
@@ -23,18 +24,18 @@ export const PaginadorProductos: React.FC<PaginadorProductosProps> = ({
   );
 
   return (
-    <nav>
+    <NavContainer>
       {rango.map((index) => {
         return (
-          <button
+          <ButtonNav
             onClick={() => onClickCambiarPagina(index)}
             key={index.toString()}
           >
             {index + 1}
-          </button>
+          </ButtonNav>
         );
       })}
-    </nav>
+    </NavContainer>
   );
 };
 
