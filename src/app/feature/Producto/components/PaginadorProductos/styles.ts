@@ -4,6 +4,7 @@ export const NavContainer = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 20px;
 `;
 
 export const ButtonNav = styled.button`
