@@ -1,6 +1,6 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import { Button } from 'app/shared/components/Button';
+import { ButtonDanger } from 'app/shared/components/Button';
 import { Producto } from '../../models/Producto';
 
 interface BtnEliminarProductoProps {
@@ -14,11 +14,11 @@ export const BtnEliminarProducto: React.FC<BtnEliminarProductoProps> = ({
 }) => {
   const handleEliminar = () => onEliminar(producto);
   return (
-    <Button onClick={handleEliminar}>
+    <ButtonDanger onClick={handleEliminar}>
       <span role="img" aria-labelledby="trash">
         🗑️
       </span>
-    </Button>
+    </ButtonDanger>
   );
 };
 
