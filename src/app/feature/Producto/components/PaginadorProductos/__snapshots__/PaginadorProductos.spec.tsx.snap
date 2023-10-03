@@ -2,11 +2,17 @@
 
 exports[`PaginadorProductos Test should match snapshot 1`] = `
 <div>
-  <nav>
-    <button>
+  <nav
+    class="sc-aXZVg ftmUeE"
+  >
+    <button
+      class="sc-gEvEer hAWsHt"
+    >
       1
     </button>
-    <button>
+    <button
+      class="sc-gEvEer hAWsHt"
+    >
       2
     </button>
   </nav>

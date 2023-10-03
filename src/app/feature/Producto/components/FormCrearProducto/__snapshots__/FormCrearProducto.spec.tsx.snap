@@ -3,33 +3,51 @@
 exports[`FormCrearProducto test should match snapshot 1`] = `
 <div>
   <form>
-    <h2>
+    <h2
+      class="sc-fqkvVR cgpKxi"
+    >
       Form test
     </h2>
-    <input
-      class="sc-gsnTZi hktoPR"
-      name="title"
-      placeholder="Title"
-      value=""
-    />
-    <input
-      class="sc-gsnTZi hktoPR"
-      name="slug"
-      placeholder="Slug"
-      value=""
-    />
-    <input
-      class="sc-gsnTZi hktoPR"
-      name="body"
-      placeholder="Body"
-      value=""
-    />
-    <button
-      class="sc-bczRLJ jgrDdV"
-      type="submit"
+    <div
+      class="sc-gEvEer jRQBTi"
     >
-      Registrar
-    </button>
+      <input
+        class="sc-gsFSXq eA-dikY"
+        name="title"
+        placeholder="Title"
+        value=""
+      />
+    </div>
+    <div
+      class="sc-gEvEer jRQBTi"
+    >
+      <input
+        class="sc-gsFSXq eA-dikY"
+        name="slug"
+        placeholder="Slug"
+        value=""
+      />
+    </div>
+    <div
+      class="sc-gEvEer jRQBTi"
+    >
+      <input
+        class="sc-gsFSXq eA-dikY"
+        name="body"
+        placeholder="Body"
+        value=""
+      />
+    </div>
+    <div
+      class="sc-eqUAAy cYHGhi"
+    >
+      <button
+        class="sc-dcJsrY bHYhVY"
+        type="submit"
+      >
+        Registrar
+      </button>
+    </div>
   </form>
 </div>
 `;
