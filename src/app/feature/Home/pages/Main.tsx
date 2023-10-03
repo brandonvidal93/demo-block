@@ -5,7 +5,7 @@ import { RouteComponentProps } from 'react-router-dom';
 
 const HomeMainPage: React.FC<RouteComponentProps> = () => (
   <Layout title="Home" description="Home de la aplicación">
-    <HolaMundo msg="Hola desde la página home!"/>
+    <HolaMundo msg="Presentación Demo Front en React"/>
   </Layout>
 );
 
